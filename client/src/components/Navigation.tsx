@@ -9,6 +9,7 @@ import { useState } from 'react';
  * - Midnight blue background with cream text
  * - Coral accent for active/hover states
  * - Responsive mobile menu
+ * - Official DSS logo integrated
  */
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,14 +20,12 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/">
-            <a className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-              <div className="w-10 h-10 bg-gradient-to-br from-[#FF6B35] to-[#C84B31] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">D</span>
-              </div>
-              <div className="hidden sm:block">
-                <h1 className="text-lg font-bold text-[#F4A460]">Sprachinsel</h1>
-                <p className="text-xs text-[#F5F1E8]">German School</p>
-              </div>
+            <a className="flex items-center hover:opacity-90 transition-opacity">
+              <img 
+                src="/manus-storage/logo_0fb99b96.png" 
+                alt="Die Sprachinsel Schule Logo"
+                className="h-16 w-auto"
+              />
             </a>
           </Link>
 
