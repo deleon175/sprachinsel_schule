@@ -1,0 +1,35 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663564944321/K7fHncyoU7oLwT8BP4GGma",
+    "access_key_id": "ASIAZV3A2ECZOPHPHDAK",
+    "secret_access_key": "2Xy8HRi+Q6XB40JmtndhrUOZvoISYaMet6RS1Mla",
+    "session_token": "IQoJb3JpZ2luX2VjEPH//////////wEaCXVzLWVhc3QtMSJHMEUCIClvMiALLIIKLQntxD0nlxeH5hLwi4TOgtj3GSArw8CTAiEA8Th+Vx0N2QLbpLF36GTCC7nejHa7KkcMyL3aNzeSvJ4q/wMIuv//////////ARAEGgw2NjUzODYwOTg4NjYiDDc3+BVfXLozq9liLirTA37Sce/VncitxLWIvew6hnU+9JTsLqWbnnIpWfIggChTaalbtI20HJ+AywGEUHPy5TLSqbqpGWhiuqlI7+9mmXw+r+cwddk82s6+sDX40cYTF0YY9+GWi05Nol+Ss3JKk4IV/YxrV9R4Avy/UUKgLcm2qdwfPvpeJeQ3udFfmpBtq23aWhPoIkDpZc8QPdfuOspsF5ynwxOjm5dikoQMz67O9odDncKcBjBs8fSBvUd/8+NUzXlzRx5vDxi1qS+bDh0UkNbnsVsWRXBqIaNZyIhJBYJMJG0YgxwJr/k784me6Dlm4JiWwlsos0OhZ8zQjvLbf7/Qno5gATr72x3nCpJMxbf7Fj/O0sN1MfANrmNGfVjYdANFVjW+c9oZpEPI3JKuwmGRGx6JxIMGUR7g8roBx0LaQKima9qikRyQAXiDU+DjyNQNT0AEGFMMYlkcD+9xwJ/R69kJtlbbisKH6xXA1uPdvLM52u3CoWJ62fuX8XknP9SOHmZeAlRIPmZ6Spkx2jt5PJ8KHT9IuJtlIfVfiaWvXGiWJzIltzRyyMt8uf/gtZXKtYKDAOJW/gxildQ0Tc5Cgl5KsVlxg9S4Y2P9TIoxjyiT3R7SoVY6nr2WIlYVMNyiq9AGOp0Bs3U+fEhset3EbMnCpD53X+SfGhRNcflV15tFqsdcd7LhqoVZFiS9SOH3H+fgWHOQck5BXFB4wzhGzw2WqdfY3pA/5eSqlqOABDouWJxC8J9Dz67UuCIWCkiTRNeJJmAGF6kU8Y25ovabMu40Zo2nuUm9459L38WhnN8Quovt6PFujclbfPjYSMhgjVDZ+skLT4j7jZiwu+kwOXxXbg==",
+    "expiration": "2026-05-18T20:44:12.000Z"
+  },
+  "name": "sprachinsel_schule",
+  "path": "/home/ubuntu/sprachinsel_schule",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "ZKbhxw5wzfdgToYgESpiPz",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "ndm9fdNDCQatcJoE9HCLtp",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "DELEON SSG",
+    "OWNER_OPEN_ID": "bFUYfGrFHfLZaQUTdKxoSw",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "c4c276fc-6973-49b9-aeb8-d54ba3c8ebdc",
+    "VITE_APP_ID": "K7fHncyoU7oLwT8BP4GGma",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Die Sprachinsel Schule",
+    "VITE_FRONTEND_FORGE_API_KEY": "FdcJ7Dbs5y5qAX6XfCocXV",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
