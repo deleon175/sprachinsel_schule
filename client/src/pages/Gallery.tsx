@@ -67,11 +67,9 @@ export default function Gallery() {
       {/* Header Section */}
       <section className="bg-gradient-to-r from-[#1A2B4A] to-[#2D5016] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link href="/">
-            <a className="flex items-center space-x-2 text-[#F4A460] hover:text-[#FF6B35] transition-colors mb-6 w-fit">
-              <ArrowLeft size={20} />
-              <span>Back to Home</span>
-            </a>
+          <Link href="/" className="flex items-center space-x-2 text-[#F4A460] hover:text-[#FF6B35] transition-colors mb-6 w-fit">
+            <ArrowLeft size={20} />
+            <span>Back to Home</span>
           </Link>
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Gallery</h1>
           <p className="text-xl text-[#F5F1E8] max-w-2xl">
